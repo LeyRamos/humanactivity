@@ -1,0 +1,956 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "Producci\u00f3n agricola Argentina - General",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 1}",
+                "position_json": "{\"CHART-EPsQOGDYkf\":{\"children\":[],\"id\":\"CHART-EPsQOGDYkf\",\"meta\":{\"chartId\":2,\"height\":50,\"sliceName\":\"Porcentaje de producci\\u00f3n agricola hist\\u00f3rica en toneladas\",\"uuid\":\"cbbfa883-212a-47df-8391-915477ea11d3\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-lGt0qoamIk\",\"ROW-2L5HJooak\"],\"type\":\"CHART\"},\"CHART-F7cmqMwxIV\":{\"children\":[],\"id\":\"CHART-F7cmqMwxIV\",\"meta\":{\"chartId\":8,\"height\":51,\"sliceName\":\"Cosecha de soja por provincias. Per\\u00edodo 2010-2020.\",\"uuid\":\"59178eec-0f5f-46c0-aa8d-61aa1c04f077\",\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-qy-2GMqoq\",\"ROW-xnV3t_VWy-\"],\"type\":\"CHART\"},\"CHART-MwdiPZ-ugz\":{\"children\":[],\"id\":\"CHART-MwdiPZ-ugz\",\"meta\":{\"chartId\":7,\"height\":50,\"sliceName\":\"Volumen de cultivos cosechados. Per\\u00edodo 2010-2020.\",\"uuid\":\"0c1dece7-dd76-4f07-8b61-eb6496a552ed\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-qy-2GMqoq\",\"ROW-xnV3t_VWy-\"],\"type\":\"CHART\"},\"CHART-Xq9PnDCyEt\":{\"children\":[],\"id\":\"CHART-Xq9PnDCyEt\",\"meta\":{\"chartId\":5,\"height\":47,\"sliceName\":\"Producci\\u00f3n hist\\u00f3rica de Soja, Trigo y Ma\\u00edz.\",\"uuid\":\"6c34ddc9-aeb8-478c-81f2-61f627cf2a40\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-lGt0qoamIk\",\"ROW-flL-fnvKB\"],\"type\":\"CHART\"},\"CHART-bDlk5tMF7V\":{\"children\":[],\"id\":\"CHART-bDlk5tMF7V\",\"meta\":{\"chartId\":9,\"height\":77,\"sliceName\":\"Cosecha por toneladas, cultivo y provincias. Per\\u00edodo 2010-2020.\",\"uuid\":\"e015498e-a010-4efb-be05-1d3a658a98dd\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-qy-2GMqoq\",\"ROW-EmDMl0Hcz\"],\"type\":\"CHART\"},\"CHART-cKl17FMRfN\":{\"children\":[],\"id\":\"CHART-cKl17FMRfN\",\"meta\":{\"chartId\":6,\"height\":56,\"sliceName\":\"Cantidad de toneladas cosechadas por cultivo. Per\\u00edodo 2010-2020\",\"uuid\":\"1c55c586-2c3b-4457-887f-64ad6e3d3b48\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-qy-2GMqoq\",\"ROW-RTqg_7hf6\"],\"type\":\"CHART\"},\"CHART-jdG-yq_WFV\":{\"children\":[],\"id\":\"CHART-jdG-yq_WFV\",\"meta\":{\"chartId\":4,\"height\":49,\"sliceName\":\"Prov. Buenos Aires - Rendimiento hist\\u00f3rico de soja por hectarea\",\"uuid\":\"3f74e1d1-1d93-4c76-8cf0-f9b448524ca8\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-lGt0qoamIk\",\"ROW-2L5HJooak\"],\"type\":\"CHART\"},\"CHART-lTVNIua212\":{\"children\":[],\"id\":\"CHART-lTVNIua212\",\"meta\":{\"chartId\":1,\"height\":59,\"sliceName\":\"Serie de Tiempo producci\\u00f3n agricola Argentina\",\"uuid\":\"68ddf3da-a953-4632-a892-af26e95dd0e2\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-lGt0qoamIk\",\"ROW-sZOYxEQV_\"],\"type\":\"CHART\"},\"CHART-xMMWMcKC7T\":{\"children\":[],\"id\":\"CHART-xMMWMcKC7T\",\"meta\":{\"chartId\":3,\"height\":80,\"sliceName\":\"Promedio de producci\\u00f3n hist\\u00f3rico por provincia\",\"uuid\":\"2dabb1b8-2f30-4d5a-9e51-49ac5c8539ae\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-lGt0qoamIk\",\"ROW-Gm0ZGzvYA\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"TABS-T8qoI5AImn\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Producci\\u00f3n agricola Argentina - General\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-2L5HJooak\":{\"children\":[\"CHART-EPsQOGDYkf\",\"CHART-jdG-yq_WFV\"],\"id\":\"ROW-2L5HJooak\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-lGt0qoamIk\"],\"type\":\"ROW\"},\"ROW-EmDMl0Hcz\":{\"children\":[\"CHART-bDlk5tMF7V\"],\"id\":\"ROW-EmDMl0Hcz\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-qy-2GMqoq\"],\"type\":\"ROW\"},\"ROW-Gm0ZGzvYA\":{\"children\":[\"CHART-xMMWMcKC7T\"],\"id\":\"ROW-Gm0ZGzvYA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-lGt0qoamIk\"],\"type\":\"ROW\"},\"ROW-RTqg_7hf6\":{\"children\":[\"CHART-cKl17FMRfN\"],\"id\":\"ROW-RTqg_7hf6\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-qy-2GMqoq\"],\"type\":\"ROW\"},\"ROW-flL-fnvKB\":{\"children\":[\"CHART-Xq9PnDCyEt\"],\"id\":\"ROW-flL-fnvKB\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-lGt0qoamIk\"],\"type\":\"ROW\"},\"ROW-sZOYxEQV_\":{\"children\":[\"CHART-lTVNIua212\"],\"id\":\"ROW-sZOYxEQV_\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-lGt0qoamIk\"],\"type\":\"ROW\"},\"ROW-xnV3t_VWy-\":{\"children\":[\"CHART-F7cmqMwxIV\",\"CHART-MwdiPZ-ugz\"],\"id\":\"ROW-xnV3t_VWy-\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\",\"TAB-qy-2GMqoq\"],\"type\":\"ROW\"},\"TAB-lGt0qoamIk\":{\"children\":[\"ROW-sZOYxEQV_\",\"ROW-Gm0ZGzvYA\",\"ROW-2L5HJooak\",\"ROW-flL-fnvKB\"],\"id\":\"TAB-lGt0qoamIk\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Hist\\u00f3rico\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\"],\"type\":\"TAB\"},\"TAB-qy-2GMqoq\":{\"children\":[\"ROW-xnV3t_VWy-\",\"ROW-RTqg_7hf6\",\"ROW-EmDMl0Hcz\"],\"id\":\"TAB-qy-2GMqoq\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Cultivos per\\u00edodo 2010-2020.\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-T8qoI5AImn\"],\"type\":\"TAB\"},\"TABS-T8qoI5AImn\":{\"children\":[\"TAB-lGt0qoamIk\",\"TAB-qy-2GMqoq\"],\"id\":\"TABS-T8qoI5AImn\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "agricultura.argentina_datos",
+                            "datasource_type": "table",
+                            "id": 1,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"contributionMode\": \"column\", \"datasource\": \"1__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"fecha\", \"groupby\": [\"provincia\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": null, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"produccion_tn\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 11, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(produccion_tn)\", \"optionName\": \"metric_w8yz51z9fq_4gj1p702ntl\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 50000, \"slice_id\": 1, \"time_grain_sqla\": \"P1Y\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"ha_sembrada\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(ha_sembrada)\", \"optionName\": \"metric_vwr3ures6m_f5m0fgbdqcu\", \"sqlExpression\": null}, \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 1, \"datasource_name\": \"argentina_datos\", \"schema\": \"agricultura\", \"database_name\": \"PSQL_argentina_datos\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"fecha\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1Y\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"provincia\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"column_name\":\"produccion_tn\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":11,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"verbose_name\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(produccion_tn)\",\"optionName\":\"metric_w8yz51z9fq_4gj1p702ntl\"}],\"orderby\":[[{\"aggregate\":\"COUNT\",\"column\":{\"column_name\":\"ha_sembrada\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":9,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"COUNT(ha_sembrada)\",\"optionName\":\"metric_vwr3ures6m_f5m0fgbdqcu\",\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":50000,\"timeseries_limit\":0,\"timeseries_limit_metric\":{\"aggregate\":\"COUNT\",\"column\":{\"column_name\":\"ha_sembrada\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":9,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"COUNT(ha_sembrada)\",\"optionName\":\"metric_vwr3ures6m_f5m0fgbdqcu\",\"sqlExpression\":null},\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[\"provincia\"],\"aggregates\":{\"SUM(produccion_tn)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},{\"operation\":\"contribution\",\"options\":{\"orientation\":\"column\"}},null]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Serie de Tiempo producci\u00f3n agricola Argentina",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "agricultura.argentina_datos",
+                            "datasource_type": "table",
+                            "id": 2,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"date_format\": \"smart_date\", \"extra_form_data\": {}, \"granularity_sqla\": \"fecha\", \"groupby\": [\"provincia\"], \"innerRadius\": 30, \"label_type\": \"key\", \"labels_outside\": true, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 70, \"row_limit\": 100, \"show_labels\": true, \"show_labels_threshold\": 5, \"slice_id\": 2, \"sort_by_metric\": true, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 2, \"datasource_name\": \"argentina_datos\", \"schema\": \"agricultura\", \"database_name\": \"PSQL_argentina_datos\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"fecha\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"provincia\"],\"metrics\":[\"count\"],\"orderby\":[[\"count\",false]],\"annotation_layers\":[],\"row_limit\":100,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Porcentaje de producci\u00f3n agricola hist\u00f3rica en toneladas",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "agricultura.argentina_datos",
+                            "datasource_type": "table",
+                            "id": 3,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"fecha\", \"groupby\": [\"provincia\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"produccion_tn\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 11, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(produccion_tn)\", \"optionName\": \"metric_pd6xesgwaeh_7duofwqiipf\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"time_grain_sqla\": \"P1Y\", \"time_range\": \" : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_bar\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 3, \"datasource_name\": \"argentina_datos\", \"schema\": \"agricultura\", \"database_name\": \"PSQL_argentina_datos\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\" : \",\"granularity\":\"fecha\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1Y\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"provincia\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":11,\"column_name\":\"produccion_tn\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"AVG\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"AVG(produccion_tn)\",\"optionName\":\"metric_pd6xesgwaeh_7duofwqiipf\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":11,\"column_name\":\"produccion_tn\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"AVG\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"AVG(produccion_tn)\",\"optionName\":\"metric_pd6xesgwaeh_7duofwqiipf\"},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[\"provincia\"],\"aggregates\":{\"AVG(produccion_tn)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Promedio de producci\u00f3n hist\u00f3rico por provincia",
+                            "viz_type": "echarts_timeseries_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "agricultura.soja_ba_rinde",
+                            "datasource_type": "table",
+                            "id": 4,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"3__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"fecha\", \"groupby\": [\"provincia\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"rendimiento_kgha\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 20, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(rendimiento_kgha)\", \"optionName\": \"metric_icz3drf4m8e_6dvg05c6q5n\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"time_grain_sqla\": \"P1Y\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 4, \"datasource_name\": \"soja_ba_rinde\", \"schema\": \"agricultura\", \"database_name\": \"PSQL_argentina_datos\"}",
+                            "query_context": "{\"datasource\":{\"id\":3,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"fecha\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1Y\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"provincia\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":20,\"column_name\":\"rendimiento_kgha\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(rendimiento_kgha)\",\"optionName\":\"metric_icz3drf4m8e_6dvg05c6q5n\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":20,\"column_name\":\"rendimiento_kgha\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(rendimiento_kgha)\",\"optionName\":\"metric_icz3drf4m8e_6dvg05c6q5n\"},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[\"provincia\"],\"aggregates\":{\"MAX(rendimiento_kgha)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Prov. Buenos Aires - Rendimiento hist\u00f3rico de soja por hectarea",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "agricultura.prov_rinde",
+                            "datasource_type": "table",
+                            "id": 5,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"'BUENOS AIRES'\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_dqpzuq143n_ely1ncnnp1\", \"isExtra\": false, \"isNew\": false, \"operator\": \"ILIKE\", \"operatorId\": \"ILIKE\", \"sqlExpression\": null, \"subject\": \"provincia\"}, {\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_u0f970o757d_8nwubf9q1aj\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"cultivo ILIKE 'Soja total' OR cultivo ILIKE 'Maiz' OR cultivo ILIKE 'Trigo total'\", \"subject\": null}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"2__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"fecha\", \"groupby\": [\"cultivo\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 25, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"rinde_kxha\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 18, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(rinde_kxha)\", \"optionName\": \"metric_vmccoqp8bha_np7uyrputm\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 5, \"time_grain_sqla\": \"P1Y\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"rinde_kxha\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 18, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(rinde_kxha)\", \"optionName\": \"metric_8ra0y0t6af_sezisjx6m4j\", \"sqlExpression\": null}, \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 5, \"datasource_name\": \"prov_rinde\", \"schema\": \"agricultura\", \"database_name\": \"PSQL_argentina_datos\"}",
+                            "query_context": "{\"datasource\":{\"id\":2,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"fecha\",\"filters\":[{\"col\":\"provincia\",\"op\":\"ILIKE\",\"val\":\"'BUENOS AIRES'\"}],\"extras\":{\"time_grain_sqla\":\"P1Y\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"(cultivo ILIKE 'Soja total' OR cultivo ILIKE 'Maiz' OR cultivo ILIKE 'Trigo total')\"},\"applied_time_extras\":{},\"columns\":[\"cultivo\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"column_name\":\"rinde_kxha\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":18,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"verbose_name\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(rinde_kxha)\",\"optionName\":\"metric_vmccoqp8bha_np7uyrputm\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":18,\"column_name\":\"rinde_kxha\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(rinde_kxha)\",\"optionName\":\"metric_8ra0y0t6af_sezisjx6m4j\"},true]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":25,\"timeseries_limit_metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":18,\"column_name\":\"rinde_kxha\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE PRECISION\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(rinde_kxha)\",\"optionName\":\"metric_8ra0y0t6af_sezisjx6m4j\"},\"order_desc\":false,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[\"cultivo\"],\"aggregates\":{\"SUM(rinde_kxha)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Producci\u00f3n hist\u00f3rica de Soja, Trigo y Ma\u00edz.",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "agricultura.cultivos_provincias",
+                            "datasource_type": "table",
+                            "id": 6,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"contributionMode\": null, \"datasource\": \"4__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"fecha\", \"groupby\": [\"cultivo\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"tn_total\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 26, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"NUMERIC(37, 6)\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(tn_total)\", \"optionName\": \"metric_spcxy85eitm_jk3ao3bblsf\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"row_limit\": 10000, \"time_grain_sqla\": \"P1Y\", \"time_range\": \"2010-01-01T00:00:00 : 2022-01-01T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"tn_total\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 26, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"NUMERIC(37, 6)\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(tn_total)\", \"optionName\": \"metric_jdmqh1841mb_vzq1j221jur\", \"sqlExpression\": null}, \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 6, \"datasource_name\": \"cultivos_provincias\", \"schema\": \"agricultura\", \"database_name\": \"PSQL_argentina_datos\"}",
+                            "query_context": "{\"datasource\":{\"id\":4,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"2010-01-01T00:00:00 : 2022-01-01T00:00:00\",\"granularity\":\"fecha\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1Y\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"cultivo\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":26,\"column_name\":\"tn_total\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"NUMERIC(37, 6)\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"COUNT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"COUNT(tn_total)\",\"optionName\":\"metric_spcxy85eitm_jk3ao3bblsf\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":26,\"column_name\":\"tn_total\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"NUMERIC(37, 6)\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(tn_total)\",\"optionName\":\"metric_jdmqh1841mb_vzq1j221jur\"},true]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":100,\"timeseries_limit_metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":26,\"column_name\":\"tn_total\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"NUMERIC(37, 6)\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(tn_total)\",\"optionName\":\"metric_jdmqh1841mb_vzq1j221jur\"},\"order_desc\":false,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[\"cultivo\"],\"aggregates\":{\"COUNT(tn_total)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Cantidad de toneladas cosechadas por cultivo. Per\u00edodo 2010-2020",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "agricultura.cultivos_provincias",
+                            "datasource_type": "table",
+                            "id": 7,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"4__table\", \"date_format\": \"smart_date\", \"extra_form_data\": {}, \"granularity_sqla\": \"fecha\", \"groupby\": [\"cultivo\"], \"innerRadius\": 30, \"label_type\": \"key\", \"labels_outside\": true, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"tn_total\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 26, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"NUMERIC(37, 6)\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(tn_total)\", \"optionName\": \"metric_ekbiipv0m9j_gwa714w3jsg\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 70, \"row_limit\": 100, \"show_labels\": true, \"show_labels_threshold\": 5, \"sort_by_metric\": true, \"time_range\": \"2010-01-01T00:00:00 : 2020-01-02T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 7, \"datasource_name\": \"cultivos_provincias\", \"schema\": \"agricultura\", \"database_name\": \"PSQL_argentina_datos\"}",
+                            "query_context": "{\"datasource\":{\"id\":4,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"2010-01-01T00:00:00 : 2020-01-02T00:00:00\",\"granularity\":\"fecha\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"cultivo\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":26,\"column_name\":\"tn_total\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"NUMERIC(37, 6)\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(tn_total)\",\"optionName\":\"metric_ekbiipv0m9j_gwa714w3jsg\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":26,\"column_name\":\"tn_total\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"NUMERIC(37, 6)\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(tn_total)\",\"optionName\":\"metric_ekbiipv0m9j_gwa714w3jsg\"},false]],\"annotation_layers\":[],\"row_limit\":100,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Volumen de cultivos cosechados. Per\u00edodo 2010-2020.",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "agricultura.cultivos_provincias",
+                            "datasource_type": "table",
+                            "id": 8,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"'Soja total'\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_gsfw78xuikl_9w6nlqnngxs\", \"isExtra\": false, \"isNew\": false, \"operator\": \"LIKE\", \"operatorId\": \"LIKE\", \"sqlExpression\": null, \"subject\": \"cultivo\"}], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"4__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"fecha\", \"groupby\": [\"provincia\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"tn_total\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 26, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"NUMERIC(37, 6)\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(tn_total)\", \"optionName\": \"metric_p2hg9amxlxr_t4cw0wl5p3i\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"time_grain_sqla\": \"P1Y\", \"time_range\": \"2010-01-01T00:00:00 : 2020-01-02T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 8, \"datasource_name\": \"cultivos_provincias\", \"schema\": \"agricultura\", \"database_name\": \"PSQL_argentina_datos\"}",
+                            "query_context": "{\"datasource\":{\"id\":4,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"2010-01-01T00:00:00 : 2020-01-02T00:00:00\",\"granularity\":\"fecha\",\"filters\":[{\"col\":\"cultivo\",\"op\":\"LIKE\",\"val\":\"'Soja total'\"}],\"extras\":{\"time_grain_sqla\":\"P1Y\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"provincia\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":26,\"column_name\":\"tn_total\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"NUMERIC(37, 6)\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(tn_total)\",\"optionName\":\"metric_p2hg9amxlxr_t4cw0wl5p3i\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":26,\"column_name\":\"tn_total\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"NUMERIC(37, 6)\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(tn_total)\",\"optionName\":\"metric_p2hg9amxlxr_t4cw0wl5p3i\"},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[\"provincia\"],\"aggregates\":{\"SUM(tn_total)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},null,null]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Cosecha de soja por provincias. Per\u00edodo 2010-2020.",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "agricultura.cultivos_provincias",
+                            "datasource_type": "table",
+                            "id": 9,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"4__table\", \"date_format\": \"smart_date\", \"extra_form_data\": {}, \"granularity_sqla\": \"fecha\", \"groupby\": [\"provincia\", \"cultivo\"], \"label_type\": \"key_value\", \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"tn_total\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 26, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"NUMERIC(37, 6)\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(tn_total)\", \"optionName\": \"metric_sze7lnjjcih_vikqyl0cc1r\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"row_limit\": 10000, \"show_labels\": true, \"show_upper_labels\": true, \"time_range\": \"2010-01-01T00:00:00 : 2020-01-02T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"treemap_v2\", \"remote_id\": 9, \"datasource_name\": \"cultivos_provincias\", \"schema\": \"agricultura\", \"database_name\": \"PSQL_argentina_datos\"}",
+                            "query_context": "{\"datasource\":{\"id\":4,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"2010-01-01T00:00:00 : 2020-01-02T00:00:00\",\"granularity\":\"fecha\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"provincia\",\"cultivo\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":26,\"column_name\":\"tn_total\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"NUMERIC(37, 6)\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(tn_total)\",\"optionName\":\"metric_sze7lnjjcih_vikqyl0cc1r\"}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Cosecha por toneladas, cultivo y provincias. Per\u00edodo 2010-2020.",
+                            "viz_type": "treemap_v2"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "column_name": "provincia",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 19,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "TEXT",
+                            "uuid": "2b792003-05ea-4267-bc3e-9f1687f22400",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "column_name": "rendimiento_kgha",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 20,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "43eec378-e24b-4c2f-a429-c0885ae29e90",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "column_name": "campania",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 21,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "TEXT",
+                            "uuid": "b91a5179-e4a6-48b7-8282-dc121d9b62c0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "column_name": "fecha",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "DATE",
+                            "uuid": "e35829b9-525a-4e06-84d2-af1321644b7c",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "fecha",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:45"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 3,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 3,
+                            "uuid": "a299879f-483b-4528-a79a-f02de039ccf5",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 3, \"database_name\": \"PSQL_argentina_datos\"}",
+                "schema": "agricultura",
+                "sql": null,
+                "table_name": "soja_ba_rinde",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "id_provincia",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "INTEGER",
+                            "uuid": "60440fbf-f320-462f-88cf-5df1bfbf47be",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "provincia",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 2,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR(22)",
+                            "uuid": "3a1db6c7-a37d-41e7-9158-67d5adb61c48",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "id_departamento",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 3,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "INTEGER",
+                            "uuid": "a844eee7-8a53-4f37-b3fe-8b7f0f4d02ec",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "departamento",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 4,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR(40)",
+                            "uuid": "0754b4a3-5d46-4f2b-bbab-1b6141d140cc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "id_cultivo",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 5,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "INTEGER",
+                            "uuid": "8b561859-7437-4f9b-bac3-6f97ce92442e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "cultivo",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 6,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR(22)",
+                            "uuid": "c56207f4-c611-4d02-900a-40bf76d8cc23",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "id_campania",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 7,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "INTEGER",
+                            "uuid": "5a0ce3e5-bbc0-4384-b9f5-12f7740b5912",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "campania",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 8,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR(16)",
+                            "uuid": "5834710a-faf7-4b5d-82cf-76abaa012503",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "ha_sembrada",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 9,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "25502373-9c6a-472e-a2bb-ab17c991a135",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "ha_cosechada",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 10,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "9eb4f27b-c140-4b42-b0e5-8d6b194e2f18",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "produccion_tn",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 11,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "cf6a468d-cb58-4338-b342-d292912d1353",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "rendimiento_kgha",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 12,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "8e320561-d395-4ab6-9f32-07d12c5b8d51",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "column_name": "fecha",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 13,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DATE",
+                            "uuid": "fe566353-ab4a-4337-a20c-0326b52a7592",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "fecha",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T13:49:10"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 1,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 1,
+                            "uuid": "29c36808-5385-4c61-9e68-4d17dddefe0a",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 1, \"database_name\": \"PSQL_argentina_datos\"}",
+                "schema": "agricultura",
+                "sql": null,
+                "table_name": "argentina_datos",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "column_name": "cultivo",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 23,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4,
+                            "type": "TEXT",
+                            "uuid": "dddba0ef-c26f-4941-84cb-4984bcad911e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "column_name": "provincia",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 24,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4,
+                            "type": "TEXT",
+                            "uuid": "c4c16bc7-f7e5-49d2-9de2-32a117b6a442",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "column_name": "fecha",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 25,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 4,
+                            "type": "DATE",
+                            "uuid": "94e62d60-113c-44a0-8489-2bc3a3c34670",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "column_name": "tn_total",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 26,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4,
+                            "type": "NUMERIC(37, 6)",
+                            "uuid": "4f99b462-edea-4cb7-9def-f1b709921259",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "fecha",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T23:26:34"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 4,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 4,
+                            "uuid": "c896853d-56e5-47d3-add8-fba75faf4ea3",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 4, \"database_name\": \"PSQL_argentina_datos\"}",
+                "schema": "agricultura",
+                "sql": null,
+                "table_name": "cultivos_provincias",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "column_name": "provincia",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 14,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 2,
+                            "type": "TEXT",
+                            "uuid": "17f516a7-aa1d-44c2-b1e0-1d45b46c4488",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "column_name": "cultivo",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 15,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 2,
+                            "type": "TEXT",
+                            "uuid": "7a6ad3bf-5c0f-42d1-8dc9-3e4214d596d1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "column_name": "campania",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 16,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 2,
+                            "type": "TEXT",
+                            "uuid": "abfa38dc-115e-4d2a-8603-c603f26ee21b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "column_name": "fecha",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 2,
+                            "type": "DATE",
+                            "uuid": "d8d12157-6842-4ca6-baf8-d5e3dadadfe1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "column_name": "rinde_kxha",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 18,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 2,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "26ff12db-3bfc-4eba-95fa-2133dcfa162b",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "fecha",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-30T18:22:38"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 2,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 2,
+                            "uuid": "991588ed-0369-4c96-af83-fc81ea628ca4",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 2, \"database_name\": \"PSQL_argentina_datos\"}",
+                "schema": "agricultura",
+                "sql": null,
+                "table_name": "prov_rinde",
+                "template_params": null
+            }
+        }
+    ]
+}
