@@ -2,19 +2,18 @@
 
 function stop {
   echo "Stopping and removing containers"
-  docker-compose --project-name wksp down
+  docker-compose --project-name ha down
 }
 
 function cleanup {
   echo "Removing volume"
-  docker volume rm wksp_postgres-data
-  docker volume rm wksp_superset
-  docker volume rm wksp_postgres-airflow-data
+  docker volume rm ha_postgres-data
+  docker volume rm ha_superset
 }
 
 function start {
   echo "Starting up"
-  docker-compose --project-name wksp up -d
+  docker-compose --project-name ha up -d
 }
 
 function update {
@@ -22,7 +21,7 @@ function update {
   git pull --all
 
   echo "Updating docker images ..."
-  docker-compose --project-name wksp pull
+  docker-compose --project-name ha pull
 
   echo "You probably should restart"
 }
@@ -41,12 +40,17 @@ function token {
 
 function superset-init {
   echo 'Initializing Superset database using sqlite'
-  docker exec -it superset superset-init
+  docker exec -it ha_superset superset-init
 }
 
-function superset-start {
-  echo 'Starting Superset container'
-  docker container start superset
+function superset-ip {
+  echo 'Superset ip is '
+  docker container inspect -f '{{ .NetworkSettings.Networks.ha_default.IPAddress }}' ha_postgres
+}
+
+function superset-import {
+  echo 'trying to import dashboard (JSON) from repository'
+  docker exec -it ha_superset superset import-dashboards -p /home/superset/ha_dashboard.json
 }
 
 function superset-stop {
@@ -54,9 +58,6 @@ function superset-stop {
   docker container stop superset
 }
 
-function psql {
-  docker exec -it postgres psql -U workshop workshop
-}
 
 case $1 in
   start )
@@ -78,15 +79,11 @@ case $1 in
     ;;
 
   logs )
-  docker-compose --project-name wksp logs -f
+  docker-compose --project-name ha logs -f
     ;;
 
   token )
   token
-    ;;
-
-  superset-start )
-  superset-start
     ;;
   
   superset-stop )
@@ -97,9 +94,13 @@ case $1 in
   superset-init
     ;;
 
-  psql )
-  psql
-    ;;
+  superset-ip)
+  superset-ip
+  ;;
+
+  superset-import)
+  superset-import
+  ;;
 
   * )
   printf "ERROR: Missing command\n  Usage: `basename $0` (start|stop|cleanup|token|logs|update|superset-start|superset-stop|superset-init)\n"
