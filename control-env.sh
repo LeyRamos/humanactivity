@@ -34,7 +34,7 @@ function info {
 
 function token {
   echo 'Your TOKEN for Jupyter Notebook is:'
-  SERVER=$(docker exec -it jupyter jupyter notebook list)
+  SERVER=$(docker exec -it ha_jupyter jupyter notebook list)
   echo "${SERVER}" | grep '/notebook' | sed -E 's/^.*=([a-z0-9]+).*$/\1/'
 }
 
