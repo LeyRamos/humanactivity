@@ -1,104 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Entrega TP - Seminario de Tópicos Avanzados en Datos Complejos.</title>
+<title>Análisis de Datos para Reconocimiento de Actividades Humanas</title>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lululu</title>
-    <style>
-        body {
-            font-family: monospace;
-            margin-top: 8vh;
-            margin-left: 10vw;
-            padding: 18px;
-            max-width: 80vw;
-            border: solid 1px black;
-            border-radius: 24px;
-        }
+    <title>Human Activity</title>
 
-
-        p,
-        em,
-        ol {
-            line-height: 2.2rem;
-            font-size: 1rem;
-        }
-
-        p {
-            margin-top: 4%;
-        }
-
-        .encabezado {
-            margin: 2vmin;
-        }
-
-        .contenido {
-            margin-top: 8vh;
-            margin-left: 3vw;
-        }
-
-        img {
-            width: 100%;
-        }
-
-        li img {
-            width: 30%;
-            text-align: center;
-            margin: 30px;
-        }
-
-        li {
-            margin-top: 25px;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="encabezado">
-        <h1> Entrega TP - Seminario de Tópicos Avanzados en Datos Complejos</h1>
-        <h2> Especialización en Ciencia de Datos - ITBA. Cohorte 2020.</h2>
-        <h3> Alumno: Agustín Genoud</h3>
+    <div>
+        <h1> Análisis de Datos para Reconocimiento de Actividades Humanas</h1>
+        <h2> Seminario de Tópicos Avanzados en Datos Complejos. ECD2020 ITBA</h2>
+
     </div>
 
-    <div class="contenido">
+    <div class>
 
-        <h2>Indicaciones</h2>
-        <p>
-            Al ejecutar el comando <em>'./control-env.sh start'</em> en la consola debería de imprimirse el token para
-            Jupyter notebook. Igualmente puede obtenerse a partir del siguiente comando: <em>./'control-env.sh
-                token'</em>
+        <h3> Datos</h3>
+      <ol>
+      <p>
+      Los datos corresponden a 
+        <a href="http://extrasensory.ucsd.edu/" target="_blank"><b>The ExtraSensory Dataset</b></a>
+         - <em>A dataset for behavioral context recognition in-the-wild from mobile sensors</em>.
+        Contiene data de 30 usuarios (originalmente 60, pero seccionado para fines de este trabajo), cada uno identificado con un ID único. 
+        Para cada usuario se tienen miles de ejemplos, típicamente registrados en intérvalos de 1 minuto (pueden existir períodos faltantes).
+        Cada ejemplo registrado contiene medidas de sensores del teléfono y/o reloj inteligente, y la mayoría también contiene labels (etiquetas)
+        reportadas por el mismo usuario.
+        
+      </p>
+        </ol>
+      
+        <h3> Levantar el ambiente de Docket Compose</h3>
+            <ol>
+                <li>
+                    En VSCode abrir una terminal de batch (WSL) y clonar el <a
+                        href="https://github.com/LeyRamos/humanactivity" target="_blank">repositorio</a> mediante 
+                  <em>'git pull https://github.com/LeyRamos/humanactivity.git main'</em> 
+                </li>
+                <li>
+                    Iniciar la aplicación de Docket Desktop
+                </li>
+                <li>
+                    En la terminal, iniciar el ambiente mediante el comando <em>./'control-env.sh start'</em>
+                </li>
+                <li>
+                    Abrir <em>'https://localhost'</em> en un navegador web.
+                </li>
+
+        <p> Funciones disponibles en el ambiente 
+            <ul>
+                <li><em>'./control-env.sh start'</em></li>
+                <li><em>'./control-env.sh stop'</em></li>
+                <li><em>'./control-env.sh cleanup'</em></li>
+                <li><em>'./control-env.sh update'</em></li>
+                <li><em>'./control-env.sh token'</em></li>
+                <li><em>'./control-env.sh info'</em></li>
+                <li><em>'./control-env.sh superset-init'</em></li>
+                <li><em>'./control-env.sh superset-ip'</em></li>
+                <li><em>'./control-env.sh superset-import'</em></li>
+                <li><em>'./control-env.sh superset-stop'</em></li>
+
+            </ul>
         </p>
+            </ol>
+
+      
+       <h3> Análisis y visualización de Datos</h3>
+             <ol>
+                <li>
+                    Abrir la lista de <a href="http://localhost:8888/tree" target="_blank">Jupyter Notebooks</a>. 
+                  Es necesario ingreasr el token que se obtienen mediente el comando en la terminat batch: 
+                  <em>./'control-env.sh token'</em>
+                </li>
+                <li>
+                    Ejecutar el notebook <a href="http://localhost:8888/notebooks/HumanActivity_ETL.ipynb" target="_blank">HumanActivity_ETL</a>
+                  para importar los datos, aplicar transformaciones y guardar en la base de datos de Postgres.
+                </li>
+                <li>
+                    Ejecutar el notebook <a href="http://localhost:8888/notebooks/HumanActivity_DW.ipynb" target="_blank">HumanActivity_DW</a>
+                  para usar los datos directamente de la base de datos de Postgres y generar agregaciones para visualización de datos.
+                </li>
+                <li>
+                    En la terminal, ejecutar <em>'./control-env.sh superset-init'</em> para inicializar Superset.
+                </li>
+                <li>
+                    Ingresar a la aplicación <a
+                        href="/" onclick="javascript:event.target.port=8088" target="_blank">Superset</a>. 
+                  Usar el usuario <em>'ha_super_admin'</em> y Password: <em>'hnm4/4c71v1tY'</em>, 
+                  o crear uno nuevo mediante el comando <em>./'control-env.sh superset-init'</em>
+                </li>
+                <li>
+                    Importar el dashboard creado desde el entorno docker <em>/home/superset/dashboards</em> mediante <em>./control-env.sh superset-import</em> en la terminal. 
+                </li>
+                <li>
+                    Acceder al <a href="http://localhost:8088/superset/dashboard/1/" target="_blank">Dashboard de Actividades Humanas</a>
+                </li>
+               
+                <p>
+            <b>Nota:</b> En caso de que la base de datos se desconecte, ingresar a las <a href="http://localhost:8088/databaseview/list/" target=" _blank">bases de datos</a>,
+                    seleccionar la opción de Data > '+ Database' > PostgresSQL y completar:   
+               
+               <ol>
+                 Host: Se optiene mediante el comando <em>'./control-env.sh superset-ip'</em> <br>
+                 Port: 5432<br>
+                 Database name: ha_db<br>
+                 User: ha_user<br>
+                 Password: hnm4/4c71v1tY<br>
+                 Display name: ha_dataset<br>
+               </ol>
+               </p>
+             
+            </ol>
+      
+      
+
+
 
         <p>Pasos a llevar adelante:</br>
             <ol>
+
                 <li>
-                    Correr script <em>(01-argentinaDatosWrite)</em> en <a
-                        href="http://localhost:8888/notebooks/01-argentinaDatosWrite.ipynb" target="_blank">jupyter
-                        notebook</a> para ETL
-                </li>
-                <li>
-                    Correr script <em>(02-argentinaDatosAdd)</em> en <a
-                        href="http://localhost:8888/notebooks/02-argentinaDatosAdd.ipynb" target="_blank">jupyter
-                        notebook</a> para generar
-                    las tablas secundarias.
-                </li>
-                <li>
-                    Correr el comando
-                    <em>'./control-env.sh superset-init'</em> para inicializar los dashboards.
-                </li>
-                <li>
-                    Una vez ejecutados los procesos a través de los notebooks e inicializado superset ingresar a <a
-                        href="/" onclick="javascript:event.target.port=8088" target="_blank">Superset</a>
-                    para las visualizaciones con el user y password ingresado previamente con el comando
-                    'superset-init'. En caso de necesitar
-                    re-conectar la base de datos para las visualizaciones ingresar a la <a
-                        href="http://localhost:8088/databaseview/list/" target=" _blank">lista de bases de datos</a>
-                    click en '+ Database' y agregar los siguientes campos:
-                    <br>
-                    <img src="./imgs/super-01.png" alt="">
-                    <br>
-                    - Ingresar Display Name: <em>PSQL_argentina_datos</em> <br>
+                  
+                 
                     - Obtener la ip de postgres a través del siguiente comando <em>'./control-env.sh superset-ip'</em>.
                     <br>
                     - Pass para copiar: <em>p4ssW0rdP4r4Agr1cultur4</em> <br>
@@ -106,37 +131,24 @@
                     <em>./control-env.sh superset-ip</em> ): <br>
                     <em>postgres://agricultura:p4ssW0rdP4r4Agr1cultur4@[IP]:5432/agricultura</em>
                 </li>
-                <li>
-                    Correr el comando <em>./control-env.sh superset-import</em>. El mismo va a importar el dashboard
-                    ubicado dentro
-                    del entorno docker en el path
-                    <em>/home/superset/dashboards</em> y dentro del repositorio en <em>./earth/superset/dashboards</em>.
-                </li>
-                <li>
-                    Acceder al <a href="http://localhost:8088/superset/dashboard/1/" target="_blank">dashboard</a>
-                </li>
+        
+              </ol>
 
-                <li>
-                    Para terminar los procesos <em>./control-env.sh stop</em>
-                </li>
-                <li>
-                    Para borrar los datos <em>./control-env.sh cleanup</em>
-                </li>
-            </ol>
+       <h3> Cerrar el ambiente</h3>
+      <ol>
+      <p> 
+        Una vez ejecutado todo el sistema se recomienda:
         </p>
+                <li>
+                    Terminar los procesos del ambiente y todos sus containers mediante <em>./control-env.sh stop</em>
+                </li>
+                <li>
+                    Limpiar los datos de los volúmenes con <em>./control-env.sh cleanup</em>
+                </li>
+        </ol>
 
-        <h2>Funciones disponibles</h2>
-        <p>
-            <ul>
-                <li><em>'./control-env.sh start'</em></li>
-                <li><em>'./control-env.sh stop'</em></li>
-                <li><em>'./control-env.sh token'</em></li>
-                <li><em>'./control-env.sh superset-init'</em></li>
-                <li><em>'./control-env.sh superset-ip'</em></li>
-                <li><em>'./control-env.sh superset-import'</em></li>
-                <li><em>'./control-env.sh cleanup'</em></li>
-            </ul>
-        </p>
+      
+
         <br>
         <p>
             <h3>Screens dashboard</h3>
@@ -144,13 +156,11 @@
 
         <img src="./imgs/produccion-agricola-argentina-general-2021-12-01T01-06-06.376Z.jpg" alt="">
         <img src="./imgs/produccion-agricola-argentina-general-2021-12-01T01-06-21.171Z.jpg" alt="">
-    </div>
-    <p>
-        Contacto: <br>
-        agustingenoud {at} gmail <br>
-        agenoud {at} itba <br>
-    </p>
 
+        <br>
+        <br>
+    <p>Leydi Ramos</p>
+    </div>
 </body>
 
 </html>
